@@ -8,7 +8,7 @@ addTodoBtn.addEventListener("click", run);
 
 function run() {
   if (inputTodo.value == "") {
-    alert("ugiu");
+    alert("Field cannot be empty!");
   } else {
     added = addElement.cloneNode(true);
     displayTodo.append(added);
